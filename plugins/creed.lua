@@ -1,15 +1,15 @@
 do
 
 function run(msg, matches)
-  return " صاحب جمال , اعلی حضرت , سرور من آقای ارسلان معروف به Creed  با ایدی : @creed_is_dead"
+  return "باتشکر از اقا نیما نجفیان"
   end
 return {
-  description = "Says about Creed ", 
-  usage = "!Creed or Creed : Return Information about Creed hehehe",
+  description = "Says about Star ", 
+  usage = "!Creed or Creed : Return Information about Star hehehe",
   patterns = {
     "^[Aa](rsalan)$",
     "^[Cc](reed)$",
-    "^[!/]([Cc]reed)$",
+    "^[!/]([Ss]tar)$",
     "^[!/]([Aa]rsalan)$",
   },
   run = run
